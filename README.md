@@ -44,10 +44,10 @@ Owner of the product : https://github.com/kolodziejgrzegorz/calculator
 
 1) If not done already, clone the git repository : https://github.com/Alen95/calculator
 ********
-**Test Case**<br/>
-Initial conditions:<br/>
--Guideline step 1 has been performed<br/>
-Test :<br/>
+**Test Case**  
+Initial conditions:  
+- Guideline step 1 has been performed  
+Test :  
 1) Browse to the project's home directory
     1) You see a folder named "devops"
 2) Open the folder named "devops"
@@ -59,10 +59,10 @@ Test :<br/>
     2) If you use the terminal, browse to the project's home directory 
     2) Inside the directory, use the terminal to run the command : mvn clean install
 ********
-**Test Case**<br/>
-Initial conditions:<br/>   
-- Guideline step 2 has been performed  
-Test :<br/> 
+**Test Case**  
+Initial conditions:     
+- Guideline step 2 has been performed    
+Test :   
 1) After running the command, you see "[INFO] BUILD SUCCESS" in the terminal.
 2) Browse to the project's home directory
     2) You see a folder named target
@@ -72,10 +72,10 @@ Test :<br/>
 3) Browse to the devops/dev-env folder
 4) Open a terminal inside the folder and run the command : vagrant up
 ********
-**Test Case**<br/>
-Initial conditions:<br/>
-- Guideline steps 3 & 4 have been performed  
-Test :<br/>
+**Test Case**  
+Initial conditions:  
+- Guideline steps 3 & 4 have been performed    
+Test :  
 1) Inside the terminal, run the command : vagrant ssh
     1) You are inside the virtual machine now
     1) In the terminal, you see vagrant@dev-env-calculator as prompt
@@ -95,8 +95,8 @@ Test :<br/>
 6) Inside the vagrant_scripts directory, run the following command :
 	sudo ./deploy-snapshot.sh
 ********
-**Test Case**<br/>
-Initial conditions:<br/> 
+**Test Case**  
+Initial conditions:   
 - Guideline steps 5 & 6 have been performed  
 Test :<br/>
 1) On your local machine, Browse to the following page : 192.168.33.14:8080/calculator/calculator
