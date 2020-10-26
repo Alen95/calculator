@@ -44,25 +44,25 @@ Owner of the product : https://github.com/kolodziejgrzegorz/calculator
 
 1) If not done already, clone the git repository : https://github.com/Alen95/calculator
 ********
-**Test Case**
-Initial conditions : 
-	Guideline step 1 has been performed
-Test :
-	1) Browse to the project's home directory
-	1.1) You see a folder named "devops"
-	2) Open the folder named "devops"
-	2.1) You see a folder named "dev-env"
-	3) Open the folder named "dev-env"
-	3.1) You a folder named "scripts" and a file named "Vagrantfile"
+**Test Case**<br/>
+Initial conditions:<br/>
+- Guideline step 1 has been performed
+Test :<br/>
+1) Browse to the project's home directory
+    1) You see a folder named "devops"
+2) Open the folder named "devops"
+    2) You see a folder named "dev-env"
+3) Open the folder named "dev-env"
+    3) You a folder named "scripts" and a file named "Vagrantfile"
 ********
 2) If not done already, build the project using maven by either using an IDE or the terminal :
 2.1) If you use the terminal, browse to the project's home directory 
 2.2) Inside the directory, use the terminal to run the command : mvn clean install
 ********
-**Test Case**  
-Initial conditions :   
+**Test Case**<br/>
+Initial conditions:<br/>   
 - Guideline step 2 has been performed
-Test :  
+Test :<br/> 
 1) After running the command, you see "[INFO] BUILD SUCCESS" in the terminal.
 2) Browse to the project's home directory
     2) You see a folder named target
@@ -72,10 +72,10 @@ Test :
 3) Browse to the devops/dev-env folder
 4) Open a terminal inside the folder and run the command : vagrant up
 ********
-**Test Case**  
-Initial conditions :  
+**Test Case**<br/>
+Initial conditions:<br/>  
 - Guideline steps 3 & 4 have been performed
-Test :
+Test :<br/>
 1) Inside the terminal, run the command : vagrant ssh
     1) You are inside the virtual machine now
     1) In the terminal, you see vagrant@dev-env-calculator as prompt
@@ -95,12 +95,12 @@ Test :
 6) Inside the vagrant_scripts directory, run the following command :
 	sudo ./deploy-snapshot.sh
 ********
-**Test Case**
-Initial conditions : 
-	Guideline steps 5 & 6 have been performed
-Test :
-	1) On your local machine, Browse to the following page : 192.168.33.14:8080/calculator/calculator
-	1.1) You are able to use the web application, which is a basic calculator allowing some mathematical operations.
+**Test Case**<br/>
+Initial conditions:<br/> 
+- Guideline steps 5 & 6 have been performed
+Test :<br/>
+1) On your local machine, Browse to the following page : 192.168.33.14:8080/calculator/calculator
+    1) You are able to use the web application, which is a basic calculator allowing some mathematical operations.
 ********
 
 
