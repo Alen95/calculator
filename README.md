@@ -74,20 +74,20 @@ Test :
 ********
 **** Test Case ****
 Initial conditions : 
-	Guideline steps 3 & 4 have been performed
+Guideline steps 3 & 4 have been performed
 Test :
-	1) Inside the terminal, run the command : vagrant ssh
-	1.1) You are inside the virtual machine now
-	1.2) In the terminal, you see vagrant@dev-env-calculator as prompt
-	2) Run the command "java -version"
-	2.1 ) The output looks like this :
-		openjdk version "1.8.0_265"
-		OpenJDK Runtime Environment (build 1.8.0_265-8u265-b01-0ubuntu2~16.04-b01)
-		OpenJDK 64-Bit Server VM (build 25.265-b01, mixed mode)
-	3) Open a browser on your local machine
-	4) Browse to the following page : 192.168.33.14:8080
-	4.1) You see the apache tomcat page with the message :
-		If you're seeing this, you've successfully installed Tomcat. Congratulations !
+1) Inside the terminal, run the command : vagrant ssh
+1.1) You are inside the virtual machine now
+1.2) In the terminal, you see vagrant@dev-env-calculator as prompt
+2) Run the command "java -version"
+2.1 ) The output looks like this :
+    openjdk version "1.8.0_265"
+    OpenJDK Runtime Environment (build 1.8.0_265-8u265-b01-0ubuntu2~16.04-b01)
+        OpenJDK 64-Bit Server VM (build 25.265-b01, mixed mode)
+3) Open a browser on your local machine
+4) Browse to the following page : 192.168.33.14:8080
+4.1) You see the apache tomcat page with the message :
+    If you're seeing this, you've successfully installed Tomcat. Congratulations !
 ********
 
 5) Inside the vagrant terminal(accessible by using "vagrant ssh"), run the following command :
