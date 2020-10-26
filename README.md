@@ -46,7 +46,7 @@ Owner of the product : https://github.com/kolodziejgrzegorz/calculator
 ********
 **Test Case**<br/>
 Initial conditions:<br/>
-- Guideline step 1 has been performed
+- Guideline step 1 has been performed  
 Test :<br/>
 1) Browse to the project's home directory
     1) You see a folder named "devops"
@@ -61,7 +61,7 @@ Test :<br/>
 ********
 **Test Case**<br/>
 Initial conditions:<br/>   
-- Guideline step 2 has been performed
+- Guideline step 2 has been performed  
 Test :<br/> 
 1) After running the command, you see "[INFO] BUILD SUCCESS" in the terminal.
 2) Browse to the project's home directory
@@ -73,8 +73,8 @@ Test :<br/>
 4) Open a terminal inside the folder and run the command : vagrant up
 ********
 **Test Case**<br/>
-Initial conditions:<br/>  
-- Guideline steps 3 & 4 have been performed
+Initial conditions:<br/>
+- Guideline steps 3 & 4 have been performed  
 Test :<br/>
 1) Inside the terminal, run the command : vagrant ssh
     1) You are inside the virtual machine now
@@ -97,7 +97,7 @@ Test :<br/>
 ********
 **Test Case**<br/>
 Initial conditions:<br/> 
-- Guideline steps 5 & 6 have been performed
+- Guideline steps 5 & 6 have been performed  
 Test :<br/>
 1) On your local machine, Browse to the following page : 192.168.33.14:8080/calculator/calculator
     1) You are able to use the web application, which is a basic calculator allowing some mathematical operations.
