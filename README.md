@@ -59,22 +59,22 @@ Test :
 2.1) If you use the terminal, browse to the project's home directory 
 2.2) Inside the directory, use the terminal to run the command : mvn clean install
 ********
-**Test Case**
-Initial conditions : 
-	Guideline step 2 has been performed
-Test :
-	1) After running the command, you see "[INFO] BUILD SUCCESS" in the terminal.
-	2) Browse to the project's home directory
-	2.1) You see a folder named target
-	3) Open the folder named "target"
-	3.1) You should see a file of type .war with the following name : calculator-1.0-SNAPSHOT.war
+**Test Case**  
+Initial conditions :   
+- Guideline step 2 has been performed
+Test :  
+1) After running the command, you see "[INFO] BUILD SUCCESS" in the terminal.
+2) Browse to the project's home directory
+    2) You see a folder named target
+3) Open the folder named "target"
+    3) You should see a file of type .war with the following name : calculator-1.0-SNAPSHOT.war
 ********
 3) Browse to the devops/dev-env folder
 4) Open a terminal inside the folder and run the command : vagrant up
 ********
-**Test Case**
-Initial conditions : 
-Guideline steps 3 & 4 have been performed
+**Test Case**  
+Initial conditions :  
+- Guideline steps 3 & 4 have been performed
 Test :
 1) Inside the terminal, run the command : vagrant ssh
     1) You are inside the virtual machine now
