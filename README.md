@@ -55,7 +55,7 @@ Test :
 2) Open the folder named "devops"
     - You see a folder named "dev-env"
 3) Open the folder named "dev-env"
-    - You a folder named "scripts" and a file named "Vagrantfile"
+    - You see a folder named "scripts" and a file named "Vagrantfile"
 ********
 2) If not done already, build the project using maven by either using an IDE or the terminal :
     - If you use the terminal, browse to the project's home directory 
