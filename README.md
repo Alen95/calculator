@@ -63,7 +63,9 @@ Test :
 ********
 **Test Case**  
 Initial conditions:     
-- Guideline step 2 has been performed    
+- Guideline step 2 has been performed   
+
+
 Test :   
 1) After running the command, you see "[INFO] BUILD SUCCESS" in the terminal.
 2) Browse to the project's home directory
@@ -76,7 +78,9 @@ Test :
 ********
 **Test Case**  
 Initial conditions:  
-- Guideline steps 3 & 4 have been performed    
+- Guideline steps 3 & 4 have been performed  
+
+
 Test :  
 1) Inside the terminal, run the command : vagrant ssh
     1) You are inside the virtual machine now
@@ -100,7 +104,9 @@ Test :
 **Test Case**  
 Initial conditions:   
 - Guideline steps 5 & 6 have been performed  
-Test :<br/>
+
+
+Test :  
 1) On your local machine, Browse to the following page : 192.168.33.14:8080/calculator/calculator
     1) You are able to use the web application, which is a basic calculator allowing some mathematical operations.
 ********
