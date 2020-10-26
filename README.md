@@ -46,7 +46,7 @@ Owner of the product : https://github.com/kolodziejgrzegorz/calculator
 ********
 **Test Case**<br/>
 Initial conditions:<br/>
-- Guideline step 1 has been performed
+-Guideline step 1 has been performed<br/>
 Test :<br/>
 1) Browse to the project's home directory
     1) You see a folder named "devops"
