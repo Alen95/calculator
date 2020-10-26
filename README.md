@@ -43,6 +43,7 @@ Owner of the product : https://github.com/kolodziejgrzegorz/calculator
 ### Guidelines :
 
 1) If not done already, clone the git repository : https://github.com/Alen95/calculator
+********
 **** Test Case ****
 Initial conditions : 
 	Guideline step 1 has been performed
@@ -57,6 +58,7 @@ Test :
 2) If not done already, build the project using maven by either using an IDE or the terminal :
 2.1) If you use the terminal, browse to the project's home directory 
 2.2) Inside the directory, use the terminal to run the command : mvn clean install
+********
 **** Test Case ****
 Initial conditions : 
 	Guideline step 2 has been performed
@@ -69,6 +71,7 @@ Test :
 ********
 3) Browse to the devops/dev-env folder
 4) Open a terminal inside the folder and run the command : vagrant up
+********
 **** Test Case ****
 Initial conditions : 
 	Guideline steps 3 & 4 have been performed
@@ -91,6 +94,7 @@ Test :
 	cd /vagrant_scripts/
 6) Inside the vagrant_scripts directory, run the following command :
 	sudo ./deploy-snapshot.sh
+********
 **** Test Case ****
 Initial conditions : 
 	Guideline steps 5 & 6 have been performed
