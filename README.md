@@ -51,11 +51,11 @@ Initial conditions:
 
 Test :  
 1) Browse to the project's home directory
-    1) You see a folder named "devops"
+    - You see a folder named "devops"
 2) Open the folder named "devops"
-    2) You see a folder named "dev-env"
+    - You see a folder named "dev-env"
 3) Open the folder named "dev-env"
-    3) You a folder named "scripts" and a file named "Vagrantfile"
+    - You a folder named "scripts" and a file named "Vagrantfile"
 ********
 2) If not done already, build the project using maven by either using an IDE or the terminal :
     2) If you use the terminal, browse to the project's home directory 
