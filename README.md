@@ -20,7 +20,7 @@ Owner of the product : https://github.com/kolodziejgrzegorz/calculator
 * Number of Fibonacci
 
 # Guideline for the different devops environments
-## Devevlopment-env
+## Development-env
 ### Asset composition :
 
 - Virtual machine, containing the following :
@@ -46,7 +46,7 @@ Owner of the product : https://github.com/kolodziejgrzegorz/calculator
 ********
 **Test Case**<br/>
 Initial conditions:<br/>
-- Guideline step 1 has been performed  
+- Guideline step 1 has been performed
 Test :<br/>
 1) Browse to the project's home directory
     1) You see a folder named "devops"
@@ -56,8 +56,8 @@ Test :<br/>
     3) You a folder named "scripts" and a file named "Vagrantfile"
 ********
 2) If not done already, build the project using maven by either using an IDE or the terminal :
-2.1) If you use the terminal, browse to the project's home directory 
-2.2) Inside the directory, use the terminal to run the command : mvn clean install
+    2) If you use the terminal, browse to the project's home directory 
+    2) Inside the directory, use the terminal to run the command : mvn clean install
 ********
 **Test Case**<br/>
 Initial conditions:<br/>   
