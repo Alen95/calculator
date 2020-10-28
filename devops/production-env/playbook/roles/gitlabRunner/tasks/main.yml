@@ -1,0 +1,8 @@
+---
+
+- name: "Install gitlab runner repo"
+  shell: curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | sudo bash
+
+- name: "Install gitlab runner"
+  command: sudo apt-get install gitlab-runner
+
