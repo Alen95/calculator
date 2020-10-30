@@ -3,6 +3,7 @@ image: maven:latest
 stages:
   - compile
   - unitTesting
+  - integrationTesting
   - build
   - upload
   - deployStaging
@@ -45,7 +46,12 @@ compile_app:
 unitTesting_app:
   stage: unitTesting
   script:
-    - mvn -Dtest=TestCalculateService test
+    - mvn -Dtest=TestUnit test
+
+integrationTesting_app:
+  stage: integrationTesting
+  script:
+    - mvn -Dtest=TestIntegration test
 
 build_app:
   stage: build
@@ -107,5 +113,4 @@ deploy_to_production:
     
     - echo "Start up Tomcat"
     - sudo sh $APACHE_BIN/startup.sh
-
 
