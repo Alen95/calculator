@@ -3,4 +3,7 @@
 target/
 .vagrant/
 ubuntu*
+.project
+.classpath
+gitlab-ci.yml
 
