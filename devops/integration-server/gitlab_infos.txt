@@ -1,6 +1,0 @@
-Root account :
-	Username : root
-	Pw : 12345678
-2nd account :
-	Username : Alen
-	Pw : 12345678
