@@ -43,9 +43,9 @@ public class TestLandingPage {
 	public static void testContent() throws InterruptedException {
 		driver.get(serverBaseURL+webpageURI);
 		Thread.sleep(1000);
-		String expectedString= "calculator";
-		String actualString= driver.findElement(By.tagName("title")).getText();
-		Assert.assertEquals(expectedString, actualString);
+		String expectedString= "Simple:";
+		String actualString= driver.findElement(By.id("headerSimple")).getText();
+		Assert.assertEquals(actualString,expectedString);
 		Thread.sleep(1000);
 	}
 	
