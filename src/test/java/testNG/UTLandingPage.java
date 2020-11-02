@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class TestLandingPage {
+public class UTLandingPage {
 	  
 	private static WebDriver driver;
 	private static String serverBaseURL= System.getProperty("serverBaseURL");

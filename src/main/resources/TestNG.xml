@@ -2,7 +2,7 @@
 <suite name="Test Suite for the calculator web application" verbose="1">
   <test name="TestNG-TestCases">
     <classes>
-         <class name="testNG.TestLandingPage" />
+         <class name="testNG.UTLandingPage" />
     </classes>
 
   </test>
