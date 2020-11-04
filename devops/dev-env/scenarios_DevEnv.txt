@@ -1,0 +1,41 @@
+Dev environment Scenarios
+
+****Scenario 1****
+Goal : Successfully build the application on local environment
+
+Pre-conditions : 
+- Maven (v3.6.2+) on local machine
+
+Main success scenario :
+ 
+1) Browse to the project's home directory (calculator)
+2) Open a terminal inside the folder and run the command :
+	mvn clean install
+3) Browse to the following directory : calculator/target
+4) You see a file named : calculator-1.0-SNAPSHOT.war
+
+
+****Scenario 2****
+Goal : Web application can be accessed in your browser
+
+Pre-conditions : 
+- The project is successfully build
+- The calculator-1.0-SNAPSHOT.war file is inside the projects target folder (calculator/target)
+- The virtual machine (dev-env) is up and running
+
+Main success scenario :
+ 
+1) Inside the vagrant terminal(accessible by using "vagrant ssh" in the devops/dev-env folder), run the following command :
+	cd /vagrant_scripts/
+2) Inside the vagrant_scripts directory, run the following command :
+	sudo ./deploy-snapshot.sh
+3) Browse to the following page on your local machine :
+	192.168.33.14:8080/calculator/calculator
+	Remark : It may happen that you get an error saying "service is not available", in that case you have to perform the steps 1 & 2 again
+4) Use the application
+
+
+
+
+
+

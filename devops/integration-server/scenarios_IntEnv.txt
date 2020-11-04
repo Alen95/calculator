@@ -1,0 +1,44 @@
+Integration server Scenarios
+
+****Scenario 1****
+Goal : Gitlab project(repository) successfully created
+
+Pre-conditions : 
+- Gitlab is up and running
+- An user account, different to ROOT, has been created
+
+Main success scenario :
+ 
+1) Log in to gitlab using your account (not ROOT)
+2) Create a project named Calculator
+3) Follow the gitlab instructions to commit & push the project source files to the repository
+Notes : The necessary files/folders to be commit&push are : 
+	- calculator.iml file
+	- pom.xml file
+	- gitlab-ci.yml file
+	- src folder
+4) You can see the source files on gitlab inside the project(repository)
+
+
+****Scenario 2****
+Goal : Pipeline can be executed
+
+Pre-conditions : 
+- Gitlab & gitlab-runner are up and running
+- Tag for runner is specified
+- Project repository is created
+- Required source files commit&pushed
+- "gitlab-ci.yml" file renamed to ".gitlab-ci.yml"
+
+Main success scenario :
+
+1) Log in to Gitlab using your account
+2) Go to the project's pipelines page
+3) Click on "Run Pipeline"
+4) You will see a running pipeline with 6 stages (commit,build,upload,deployStaging,test,deployProduction)
+
+
+
+
+
+

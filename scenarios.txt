@@ -1,0 +1,14 @@
+CALCULATOR - WEB APPLICATION - SCENARIOS
+
+SCENARIOS :
+
+1) The scenarios for the development environment are explained inside the "scenarios_DevEnv" file located in "calculator/devops/dev-env"
+2) The scenarios for the integration server are explained inside the "scenarios_IntEnv" file located in "calculator/devops/integration-server"
+3) The scenarios for the staging environment are explained inside the "scenarios_StageEnv" file located in "calculator/devops/stage-env"
+4) The scenarios for the production environment are explained inside the "scenarios_ProdEnv" file located in "calculator/devops/production-env"
+
+
+
+
+
+

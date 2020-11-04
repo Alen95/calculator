@@ -1,0 +1,39 @@
+Staging environment Scenarios
+
+****Scenario 1****
+Goal : Tomcat manager page is accessible
+
+Pre-conditions : 
+- Staging environment is up & running
+
+Main success scenario :
+ 
+1) Open a browser on your local machine
+2) Browse to the following URL : 192.168.33.17:8080/manager
+3) Use as username : Admin 
+4) Use as password : Admin
+5) You are inside tomcat's management page
+
+
+****Scenario 2****
+Goal : Application accessible on the staging environment
+
+Pre-conditions : 
+- Project repository is created
+- Required source files commit&pushed
+- Gitlab & gitlab-runner are up and running
+- Gitlab-runner of staging environment up and running
+- Tag for runner is specified
+- Pipeline successfully executed the deployStaging stage
+
+Main success scenario :
+ 
+1) Open a browser on your local machine
+2) Browse to the following URL : 192.168.33.17:8080/calculator/calculator
+3) You are able to access the web application
+
+
+
+
+
+
